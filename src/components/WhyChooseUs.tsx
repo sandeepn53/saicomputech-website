@@ -1,4 +1,4 @@
-import { Cpu, ShieldCheck, Laptop2, Sparkles } from "lucide-react";
+import { Cpu, ShieldCheck, Sparkles, Laptop2 } from "lucide-react";
 
 const points = [
   {
