@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx",
-    "sync:reviews": "node scripts/sync-reviews.mjs"
+    "sync:reviews": "node scripts/sync-reviews.mjs",
+    "deploy:cf": "wrangler pages deploy dist --project-name saicomputech-website"
   },
   "dependencies": {
     "react": "19.2.4",
@@ -26,6 +27,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vite": "^5"
+    "vite": "^5",
+    "wrangler": "^4.114.0"
   }
 }
