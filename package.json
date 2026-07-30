@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "npm run sync:reviews",
     "dev": "vite",
+    "prebuild": "npm run sync:reviews",
     "build": "vite build",
+    "prepreview": "npm run sync:reviews",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx",
     "sync:reviews": "node scripts/sync-reviews.mjs",
