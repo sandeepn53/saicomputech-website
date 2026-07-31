@@ -1,0 +1,31 @@
+<svg width="1400" height="1000" viewBox="0 0 1400 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1000" rx="48" fill="#071521"/>
+  <rect x="72" y="72" width="1256" height="856" rx="36" fill="url(#bg)"/>
+  <rect x="154" y="170" width="420" height="300" rx="28" fill="#102A43" stroke="#59C9FF" stroke-opacity="0.4"/>
+  <rect x="188" y="214" width="220" height="16" rx="8" fill="#E8F9FF"/>
+  <rect x="188" y="246" width="182" height="12" rx="6" fill="#70CCFF"/>
+  <rect x="188" y="274" width="148" height="12" rx="6" fill="#3A8FE9"/>
+  <rect x="188" y="304" width="206" height="12" rx="6" fill="#8CDFFF"/>
+  <rect x="620" y="170" width="270" height="300" rx="28" fill="#0F2B44" stroke="#69CCFF" stroke-opacity="0.35"/>
+  <circle cx="755" cy="320" r="88" fill="#2F8BFF" fill-opacity="0.2"/>
+  <path d="M754 262V378" stroke="#80E7FF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M690 320H818" stroke="#80E7FF" stroke-width="12" stroke-linecap="round"/>
+  <rect x="930" y="170" width="250" height="300" rx="28" fill="#0D2640" stroke="#58C9FF" stroke-opacity="0.3"/>
+  <rect x="970" y="228" width="150" height="16" rx="8" fill="#CFF7FF"/>
+  <rect x="970" y="262" width="120" height="12" rx="6" fill="#64BEFF"/>
+  <rect x="970" y="292" width="98" height="12" rx="6" fill="#2F8BFF"/>
+  <rect x="154" y="522" width="1026" height="240" rx="32" fill="#091725" stroke="#4DC9FF" stroke-opacity="0.25"/>
+  <rect x="214" y="580" width="260" height="20" rx="10" fill="#E8F9FF"/>
+  <rect x="214" y="620" width="180" height="12" rx="6" fill="#69D5FF"/>
+  <rect x="214" y="646" width="210" height="12" rx="6" fill="#2F8BFF"/>
+  <rect x="560" y="566" width="170" height="120" rx="24" fill="#0E6BB8"/>
+  <rect x="760" y="566" width="170" height="120" rx="24" fill="#10364D"/>
+  <path d="M618 626L652 592L686 626" stroke="#CFF7FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M820 600L856 636L892 588" stroke="#78E4FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="120" x2="1280" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2A43"/>
+      <stop offset="1" stop-color="#081624"/>
+    </linearGradient>
+  </defs>
+</svg>

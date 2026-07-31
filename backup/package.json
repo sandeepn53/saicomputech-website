@@ -1,0 +1,38 @@
+{
+  "name": "saicomputech-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "npm run sync:reviews",
+    "dev": "vite",
+    "prebuild": "npm run sync:reviews",
+    "build": "vite build",
+    "prepreview": "npm run sync:reviews",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "sync:reviews": "node scripts/sync-reviews.mjs",
+    "deploy:cf": "wrangler pages deploy dist --project-name saicomputech-website --branch master --force",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "lucide-react": "^1.27.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.65.0",
+    "@typescript-eslint/parser": "^8.65.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite": "^5",
+    "wrangler": "^4.114.0"
+  }
+}
