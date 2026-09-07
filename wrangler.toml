@@ -10,9 +10,14 @@ watch_dir = "src"
 directory = "./dist"
 not_found_handling = "single-page-application"
 
-[env.production]
-route = "example.com/api/contact"
-zone_id = "your_zone_id"
+# Cloudflare Worker Routes for Contact Form API
+[[routes]]
+pattern = "saicomputech.com/api/contact"
+zone_name = "saicomputech.com"
 
-[env.production.vars]
-RESEND_API_KEY = "" # Set this in Cloudflare dashboard secrets
+# Environment variables for production
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# Note: RESEND_API_KEY should be set as a Cloudflare secret using:
+# wrangler secret put RESEND_API_KEY
